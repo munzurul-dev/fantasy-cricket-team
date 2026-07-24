@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://i.ibb.co.com/N6RjWYh7/images.jpg",
+    "country": "Bangladesh",
+    "category": "All-Rounder",
+    "rating": 9.9,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Slow Left-Arm Orthodox",
+    "price": "70,000,000"
+  },
+  {
+    "id": 2,
+    "playerName": "Tamim Iqbal",
+    "playerImg": "https://i.ibb.co.com/XZ2x6Qvr/301403-6.webp",
+    "country": "Bangladesh",
+    "category": "Batsman",
+    "rating": 9.7,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": "60,000,000"
+  },
+  {
+    "id": 3,
+    "playerName": "Litton Das",
+    "playerImg": "https://i.ibb.co.com/yFF41WrS/liton-das-currently-going-through-a-rough-patch-attempts-to-reinvent-himself-in-the-nets.webp",
+    "country": "Bangladesh",
+    "category": "Wicket Keeper",
+    "rating": 9.5,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "None",
+    "price": "55,000,000"
+  },
+  {
+    "id": 4,
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://i.ibb.co.com/zTV8fTxF/images-2.jpg",
+    "country": "Bangladesh",
+    "category": "Bowler",
+    "rating": 9.6,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Left-Arm Fast Medium",
+    "price": "65,000,000"
+  },
+  {
+    "id": 5,
+    "playerName": "Taskin Ahmed",
+    "playerImg": "https://i.ibb.co.com/qLDq8xwt/images-3.jpg",
+    "country": "Bangladesh",
+    "category": "Bowler",
+    "rating": 9.3,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": "50,000,000"
+  },
+  {
+    "id": 6,
+    "playerName": "Rashid Khan",
+    "playerImg": "https://i.ibb.co.com/WNH706s7/images-4.jpg",
+    "country": "Afghanistan",
+    "category": "All-Rounder",
+    "rating": 10.0,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Leg Break",
+    "price": "90,000,000"
+  },
+  {
+    "id": 7,
+    "playerName": "Andre Russell",
+    "playerImg": "https://i.ibb.co.com/0j0XQz7Y/images-5.jpg",
+    "country": "West Indies",
+    "category": "All-Rounder",
+    "rating": 9.9,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": "95,000,000"
+  },
+  {
+    "id": 8,
+    "playerName": "Sunil Narine",
+    "playerImg": "https://i.ibb.co.com/MDqhvZXZ/images-6.jpg",
+    "country": "West Indies",
+    "category": "All-Rounder",
+    "rating": 9.8,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": "85,000,000"
+  },
+  {
+    "id": 9,
+    "playerName": "David Miller",
+    "playerImg": "https://i.ibb.co.com/gZn7DcXX/images-11.jpg",
+    "country": "South Africa",
+    "category": "Batsman",
+    "rating": 9.6,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": "80,000,000"
+  },
+  {
+    "id": 10,
+    "playerName": "Moeen Ali",
+    "playerImg": "https://i.ibb.co.com/rRb9PrLh/images-8.jpg",
+    "country": "England",
+    "category": "All-Rounder",
+    "rating": 9.7,
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": "82,000,000"
+  },
+  {
+    "id": 11,
+    "playerName": "Mohammad Rizwan",
+    "playerImg": "https://i.ibb.co.com/Df5J9Dmt/images-9.jpg",
+    "country": "Pakistan",
+    "category": "Wicket Keeper",
+    "rating": 9.8,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "None",
+    "price": "88,000,000"
+  },
+  {
+    "id": 12,
+    "playerName": "Babar Azam",
+    "playerImg": "https://i.ibb.co.com/V0cYPGpX/images-10.jpg",
+    "country": "Pakistan",
+    "category": "Batsman",
+    "rating": 9.9,
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": "100,000,000"
+  }
+]
