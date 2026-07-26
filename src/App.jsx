@@ -44,7 +44,7 @@ function App() {
           <button
             onClick={() => setToggle(true)}
             className={`rounded-l-2xl border border-r-0 border-gray-300 px-5 py-3 ${
-              toggle ? "bg-[#E7FE29]" : ""
+              toggle ? "bg-[#E7FE29] text-black" : ""
             }`}
           >
             Available

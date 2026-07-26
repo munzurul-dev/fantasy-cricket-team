@@ -24,7 +24,7 @@ const AvailableCard = ({player , selectedId ,setSelectedId , setBalance , Availa
  }
  
   return (
-   <div className="w-full max-w-sm rounded-2xl border border-gray-200 bg-white p-4 shadow-md">
+   <div className="  rounded-2xl border border-gray-200 bg-white p-4 shadow-md">
   <img
     src={player.playerImg}
     className="h-56 w-full rounded-xl object-cover"
@@ -64,7 +64,7 @@ const AvailableCard = ({player , selectedId ,setSelectedId , setBalance , Availa
     </p>
 
     <button disabled={selectedId.includes(player.id)} onClick={()=> handleClick(player)} className={`
-      rounded-lg border px-4 py-2 text-sm transition  hover:bg-gray-900 hover:text-white ${selectedId.includes(player.id)?"bg-black text-white":""}
+      rounded-lg border border-black btn text-black px-4 py-2 text-sm transition  hover:bg-gray-900 hover:text-white ${selectedId.includes(player.id)?"bg-black text-white":""}
       `}>
       {
         selectedId.includes(player.id)

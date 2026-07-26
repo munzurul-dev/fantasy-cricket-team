@@ -9,9 +9,9 @@ const Banner = () => {
       }}
     >
       <img className="mx-auto max-w-62 h-full" src={bannerImg} alt="" />
-      <h2 className="font-bold text-4xl">Assemble Your Ultimate Dream 11 Cricket Team</h2>
+      <h2 className="font-bold text-2xl lg:text-4xl">Assemble Your Ultimate Dream 11 Cricket Team</h2>
       <p className="font-medium text-md">Beyond Boundaries Beyond Limits</p>
-      <button className="btn btn-active bg-[#E7FE29] border-0 rounded-2xl">Claim Free Credit</button>
+      <button className="btn btn-active text-black bg-[#E7FE29] border-0 rounded-2xl">Claim Free Credit</button>
     </div>
   );
 };

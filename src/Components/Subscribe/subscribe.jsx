@@ -9,10 +9,10 @@ const Subscribe = () => {
       }}
     >
       <div className="space-y-2 ">
-        <h1 className="font-bold text-2xl">Subscribe to our Newsletter</h1>
-        <p>Get the latest updates and news right in your inbox!</p>
+        <h1 className="font-bold text-2xl text-black">Subscribe to our Newsletter</h1>
+        <p className="text-black">Get the latest updates and news right in your inbox!</p>
         <input
-          className="py-2 px-10 border-2 border-gray-400 rounded-2xl outline-0"
+          className="py-2 px-10 border-3 border-[#4e4747] rounded-2xl outline-0 text-black"
           type="text "
           placeholder="Enter Your Email"
         />{" "}

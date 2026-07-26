@@ -12,7 +12,7 @@ const SelectedPlayers = ({SinningPlayers , removePlayers , setToggle }) => {
     player={player}
   />
 ))}
-          <button onClick={ ()=> setToggle(true)} className="bg-[#E7FE29] py-4 px-5 font-bold mt-5 cursor-pointer rounded-2xl"> Add More Players</button>  
+          <button onClick={ ()=> setToggle(true)} className="bg-[#E7FE29] text-black py-4 px-5 font-bold mt-5 cursor-pointer rounded-2xl"> Add More Players</button>  
        </div>
     );
 };
