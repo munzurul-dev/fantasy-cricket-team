@@ -43,21 +43,22 @@ const Footer = () => {
             </p>
 
             <div className="w-full max-w-xl mx-auto">
-  <div className="flex items-center overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md">
+  <div className="flex flex-col md:flex-col lg:flex-row gap-3 lg:gap-0 w-full">
+  <input
+    type="email"
+    placeholder="Enter your email"
+    className="flex-1 px-4 py-3 text-gray-800 placeholder:text-gray-400 outline-none border-2 lg:border-white border-black rounded-xl lg:rounded-r-none"
+  />
 
-    <input
-      type="email"
-      placeholder="Enter your email"
-      className="flex-1 px-4 sm:px-5 py-3 sm:py-4 text-sm sm:text-base text-gray-800 placeholder:text-gray-400 outline-none"
-    />
-
-    <button
-    className=" bg-linear-to-r from-yellow-300 via-orange-300 to-pink-300 px-5  py-3 sm:py-4 text-sm sm:text-base font-semibold text-black hover:brightness-105 active:scale-95 transition-all duration-300"
-    >
-      Subscribe
-    </button>
-
-  </div>
+  <button
+    className="bg-linear-to-r from-yellow-300 via-orange-300 to-pink-300
+               px-6 py-3 font-semibold text-black
+               rounded-xl lg:rounded-l-none
+               transition-all duration-300 hover:brightness-105 active:scale-95"
+  >
+    Subscribe
+  </button>
+</div>
 </div>
           </div>
         </div>

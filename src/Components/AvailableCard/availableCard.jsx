@@ -27,7 +27,7 @@ const AvailableCard = ({player , selectedId ,setSelectedId , setBalance , Availa
    <div className="  rounded-2xl border border-gray-200 bg-white p-4 shadow-md">
   <img
     src={player.playerImg}
-    className="h-56 w-full rounded-xl object-cover"
+    className="h-56 w-full rounded-xl "
   />
 
   <div className="mt-4 flex items-center gap-2">
@@ -59,12 +59,12 @@ const AvailableCard = ({player , selectedId ,setSelectedId , setBalance , Availa
   </div>
 
   <div className="mt-5 flex items-center justify-between">
-    <p className="font-bold">
+    <p className="font-bold text-black">
       Price: <span className="text-green-600"><span>$</span>{player.price}</span>
     </p>
 
     <button disabled={selectedId.includes(player.id)} onClick={()=> handleClick(player)} className={`
-      rounded-lg border border-black btn text-black px-4 py-2 text-sm transition  hover:bg-gray-900 hover:text-white ${selectedId.includes(player.id)?"bg-black text-white":""}
+      rounded-lg border border-black btn lg:text-black text-white px-4 py-2 text-sm transition  hover:bg-gray-900 hover:text-white ${selectedId.includes(player.id)?"bg-black text-white":""}
       `}>
       {
         selectedId.includes(player.id)

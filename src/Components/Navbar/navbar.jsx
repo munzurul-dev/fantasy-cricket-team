@@ -9,7 +9,7 @@ const Navbar = ({AvailableBalance}) => {
           </a>
         </div>
         <div className="items-center p-6">
-          <ul className="flex gap-4 items-center font-bold text-xs text-[#000000e1]">
+          <ul className="flex gap-4 items-center font-bold text-xs text-white lg:text-[#000000e1]">
             <li>
               <a href="#">Home</a>
             </li>

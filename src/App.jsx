@@ -53,7 +53,7 @@ function App() {
           <button
             onClick={() => setToggle(false)}
             className={`rounded-r-2xl border border-l-0 border-gray-300 px-5 py-3 ${
-              !toggle ? "bg-[#E7FE29]" : ""
+              !toggle ? "bg-[#E7FE29] text-black" : ""
             }`}
           >
             Selected <span>({SinningPlayers.length})</span>
